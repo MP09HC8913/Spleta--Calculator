@@ -35,7 +35,7 @@ body{
     gap: 9px;
     padding: 2rem;
     border: 2px solid black;
-    height: 400px;
+    height: 470px;
     background-color: rgb(62, 62, 62);
 
 }
@@ -53,6 +53,8 @@ body{
     width: 110px;
     height: 50px;
     border-radius: 30%;
+    margin-left: 8px;
+    font-size: 20px;
 }
 
 .adisplay{
@@ -66,6 +68,14 @@ body{
     height: 100%;
     border: 2px solid black;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 24px;
+}
 
-
+#empty{
+    background-color: rgb(62, 62, 62);
+    color: rgb(62, 62, 62);
 }
